@@ -1,5 +1,9 @@
+:root {
+    --cores-predominantes: #00008b
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--cores-predominantes);
     padding: 10px;
 }
 
@@ -10,7 +14,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--cores-predominantes);
 }
 
 img {
