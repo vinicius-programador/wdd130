@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cores-predominantes: #00008b
 }
@@ -35,23 +41,28 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    /* 1 */
-    padding: 1rem;
-    background-color: #eee;
+
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+
+}
+
 main img {
+    margin-left: 20px;
     width: 150px;
     height: auto;
+    float: right;
+
 }
 
 p {
@@ -63,4 +74,17 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 
+}
+
+/*seletores de classe*/
+
+.caixa {
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #eee;
+}
+
+.identacao {
+    padding-left: 2rem;
 }
