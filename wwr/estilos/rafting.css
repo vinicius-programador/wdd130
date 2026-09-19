@@ -18,10 +18,9 @@ body {
 
 header,
 main,
-footer,
-{
-width: 840px;
-margin: 0 auto;
+footer {
+    width: 840px;
+    margin: 0 auto;
 }
 
 h1,
@@ -40,7 +39,7 @@ article {
 
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
 
