@@ -12,18 +12,19 @@
 }
 
 header {
-    display: grid;
+    display: flex;
     grid-template-columns: auto 1fr;
     align-items: center;
-    padding: 60x 50px;
+    padding: 15xp 40px;
     background-color: #0d5400;
     width: 100%;
+    justify-content: space-between;
 }
 
 header nav ul {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 10px;
     justify-content: flex-end;
     margin: 0;
     padding: 0;
@@ -49,7 +50,7 @@ header nav a {
 }
 
 header img {
-    max-height: 130px;
+    max-height: 80px;
     width: auto;
 
 }
@@ -59,11 +60,11 @@ body {
     color: var(--cor-destaque1);
 }
 
-header,
+/* header,
 main,
 footer {
     width: 840px;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 
 h1,
@@ -84,6 +85,7 @@ article {
 
 .redes-sociais a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -132,4 +134,18 @@ article {
 
 footer {
     background-color: #0d5400;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.galeria {
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    margin: 20px 0;
+
+    width: max-content
 }
