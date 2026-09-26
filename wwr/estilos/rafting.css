@@ -15,7 +15,7 @@ header {
     display: flex;
     grid-template-columns: auto 1fr;
     align-items: center;
-    padding: 15xp 40px;
+    padding: 15px 40px;
     background-color: #0d5400;
     width: 100%;
     justify-content: space-between;
@@ -147,5 +147,14 @@ footer {
 
     margin: 20px 0;
 
-    width: max-content
+}
+
+.galeria img {
+    width: 50px;
+    height: auto;
+}
+
+.galeria figcaption {
+    text-align: center;
+    width: 1px;
 }
