@@ -11,6 +11,49 @@
     box-sizing: border-box;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 60x 50px;
+    background-color: #0d5400;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header nav a {
+    display: block;
+    background-color: #ffffff;
+
+    color: #000000;
+
+    text-decoration: none;
+
+    padding: 10px 25px;
+
+    border: 1px solid #999999;
+
+    font-family: var(--fonte-body);
+    font-size: 0.9rem;
+    justify-content: flex-end;
+
+}
+
+header img {
+    max-height: 130px;
+    width: auto;
+
+}
+
 body {
     font-family: var(--fonte-body);
     color: var(--cor-destaque1);
